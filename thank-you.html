@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="icon" href="/favicon.ico">
+  <title>Відправка повідомлення</title>
+
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+
+    .ty {
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .ty__conteiner {
+      width: 1300px;
+      max-width: 100%;
+      padding: 10px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .ty__header {
+      margin-bottom: 40px;
+    }
+
+    .ty__title {
+      font-size: 60px;
+      font-family: Arial;
+      font-weight: 600;
+      text-transform: uppercase;
+      text-align: center;
+      margin-bottom: 10px;
+    }
+
+    @media (max-width: 1024px) {
+      .ty__title {
+        font-size: 45px;
+      }
+    }
+
+    @media (max-width: 768px) {
+      .ty__title {
+        font-size: 40px;
+      }
+    }
+
+    @media (max-width: 425px) {
+      .ty__title {
+        font-size: 38px;
+      }
+    }
+
+    @media (max-width: 375px) {
+      .ty__title {
+        font-size: 34px;
+      }
+    }
+
+    @media (max-width: 320px) {
+      .ty__title {
+        font-size: 30px;
+      }
+    }
+
+    .ty__suptitle {
+      font-size: 40px;
+      font-family: Arial;
+      font-weight: 500;
+      text-transform: uppercase;
+      text-align: center;
+    }
+
+    @media (max-width: 1024px) {
+      .ty__suptitle {
+        font-size: 35px;
+      }
+    }
+
+    @media (max-width: 768px) {
+      .ty__suptitle {
+        font-size: 30px;
+      }
+    }
+
+    @media (max-width: 425px) {
+      .ty__suptitle {
+        font-size: 28px;
+      }
+    }
+
+    @media (max-width: 375px) {
+      .ty__suptitle {
+        font-size: 24px;
+      }
+    }
+
+    @media (max-width: 320px) {
+      .ty__suptitle {
+        font-size: 20px;
+      }
+    }
+
+    .ty_btn {
+      display: block;
+      font-family: Arial;
+      background-color: #000000;
+      border: 3px solid #ffffff;
+      box-sizing: border-box;
+      text-decoration: none;
+      border-radius: 40px;
+      color: white;
+      font-size: 28px;
+      padding: 30px 95px;
+      border: black solid 4px;
+
+      transition: 0.4s;
+    }
+
+    @media (min-width: 769px) {
+      .ty_btn:hover {
+        background: #ffffff;
+        color: black;
+        border: black solid 4px;
+        box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.5);
+        transition: 0.4s;
+      }
+    }
+
+    .ty_btn,
+    .ty_btn:active,
+    .ty_btn:focus {
+      outline: none;
+    }
+
+    @media (max-width: 1024px) {
+      .ty_btn {
+        font-size: 24px;
+      }
+    }
+
+    @media (max-width: 768px) {
+      .ty_btn {
+        font-size: 22px;
+      }
+    }
+
+    @media (max-width: 425px) {
+      .ty_btn {
+        padding: 17px 71px;
+      }
+    }
+
+    @media (max-width: 375px) {
+      .ty_btn {
+        font-size: 20px;
+        padding: 15px 50px;
+        text-align: center;
+      }
+    }
+
+    @media (max-width: 300px) {
+      .ty_btn {
+        padding: 15px 58px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <section class="ty">
+
+    <div class="ty__conteiner">
+
+      <div class="ty__header">
+        <div class="ty__title">ваша заявка успішно відправлена</div>
+        <div class="ty__suptitle">очікуйте на дзвінок нашого майстера</div>
+      </div>
+
+      <div class="ty__button">
+        <a class="ty_btn" href="index.html">На головну сторінку</a>
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</body>
+
+</html>
